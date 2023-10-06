@@ -4,10 +4,14 @@
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+Hardware – PCs, Cyclone II , USB flasher
+Software – Quartus prime
+
+
 ## Theory
 Subtractor circuits take two binary numbers as input and subtract one binary number input from the other binary number input. Similar to adders, it gives out two outputs, difference and borrow (carry-in the case of Adder). There are two types of subtractors.
+
+
 
 ## Half Subtractor Full Subtractor
 ## Half Subtractor
@@ -26,29 +30,74 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
-
-
-
-Write the detailed procedure here 
+1.Connect the supply (+5V) to the circuit.
+2.Switch ON the main switch.
+3.If the output is 1, then the led glows. 
 
 
 ## Program:
-/*
+
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:SAKTHISWAR S
 
-## Output:
+RegisterNumber: 212222230127
 
-## Truthtable
+```python
+
+1. Program to design a half subtractor:
+
+module ex4a(a,b,diff,borr);
+input a,b;
+output diff,borr;
+assign diff=(a^b);
+assign borr=((~a)&b);
+endmodule
+
+2. Program to design a full subtractor:
+
+module ex4b(a,b,bin,diff,borr);
+input a,b,bin;
+output diff,borr;
+assign diff=a^b^bin;
+assign borr=((~a)&b)|(b&bin)|((~a)&bin);
+endmodule
+
+```
+
+
+# Output:
+
+## Truthtable:
+
+HALF SUBTRACTOR:
 
 
 
-##  RTL realization
+FULL SUBTRACTOR:
 
 
-## Timing diagram 
+
+
+##  RTL realization:
+
+
+HALF SUBTRACTOR:
+
+
+
+FULL SUBTRACTOR:
+
+
+
+## WAVEFORM: 
+
+HALF SUBTRACTOR:
+
+
+FULL SUBTRACTOR:
+
+
+
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
