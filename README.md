@@ -71,9 +71,12 @@ endmodule
 
 HALF SUBTRACTOR:
 
+![image](https://github.com/SAKTHISWAR/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de1.png)
 
 
 FULL SUBTRACTOR:
+
+![image](https://github.com/SAKTHISWAR/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de2.png)
 
 
 
@@ -83,9 +86,15 @@ FULL SUBTRACTOR:
 
 HALF SUBTRACTOR:
 
+![image](https://github.com/SAKTHISWAR/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de3.png)
+
+
 
 
 FULL SUBTRACTOR:
+
+![image](https://github.com/SAKTHISWAR/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de4.png)
+
 
 
 
@@ -93,8 +102,14 @@ FULL SUBTRACTOR:
 
 HALF SUBTRACTOR:
 
+![image](https://github.com/SAKTHISWAR/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de5.png)
+
+
 
 FULL SUBTRACTOR:
+
+![image](https://github.com/SAKTHISWAR/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/de6.png)
+
 
 
 
